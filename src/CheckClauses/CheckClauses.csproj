@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>JuniorPorfirio.CheckClauses</PackageId>
+    <Authors>Júnior Porfirio (@juniorporfirio)</Authors>
+    <Company>juniorporfirio.medium.com</Company>
+    <RepositoryUrl>https://github.com/juniorporfirio/checkclauses</RepositoryUrl>
+    <Description>A simple package with guard clause with extension methods.</Description>
+    <PackageTags>guard clause clauses assert assertion fluent clauses check</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
