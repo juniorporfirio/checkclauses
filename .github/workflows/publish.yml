@@ -1,25 +1,27 @@
-name: Publish JuniorPorfirio.CheckClauses to nuget
+name: Publish CheckClauses to nuget
 on:
   push:
     branches:
-    - main
-    paths: 
-    - 'src/CheckClauses/**'
+    - master
 jobs:
-  publish:
+  build-test-publish:
+    name: publish to nuget
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.x
-    # Publish
-    - name: publish on version change
-      uses: rohith/publish-nuget@v2
-      with:
-        PROJECT_FILE_PATH: src/CheckClauses/CheckClauses.csproj # Relative to repository root
-        VERSION_REGEX: <Version>(.*)<\/Version> # Regex pattern to extract version info in a capturing group
-        TAG_COMMIT: true # Flag to enable / disable git tagging
-        TAG_FORMAT: CheckClauses-v* # Format of the git tag, [*] gets replaced with version
-        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2 # This must be >= 2 to compare commits
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.x
+      - name: Build
+        run: dotnet build
+      - name: Test
+        run: dotnet test
+      - name: Publish if version is updated
+        uses: rohith/publish-nuget@v1
+        with: # All inputs are optional (details given below)
+          project_dir: src/CheckClauses # Defaults to repository root
+          tag_format: v* # [*] gets replaced with version
+          nuget_key: ${{secrets.NUGET_API_KEY}} # nuget.org API key
