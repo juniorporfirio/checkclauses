@@ -1,0 +1,391 @@
+SF:/var/git/others/CheckClauses/src/CheckClauses/Check.cs
+FN:4,JuniorPorfirio.CheckClauses.Clauses`1<T> JuniorPorfirio.CheckClauses.Check::Clauses(System.String,T)
+FNDA:96,JuniorPorfirio.CheckClauses.Clauses`1<T> JuniorPorfirio.CheckClauses.Check::Clauses(System.String,T)
+DA:5,96
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Clauses.cs
+FN:4,T JuniorPorfirio.CheckClauses.Clauses`1::get_Value()
+FNDA:233,T JuniorPorfirio.CheckClauses.Clauses`1::get_Value()
+DA:5,233
+FN:5,System.String JuniorPorfirio.CheckClauses.Clauses`1::get_Name()
+FNDA:196,System.String JuniorPorfirio.CheckClauses.Clauses`1::get_Name()
+DA:6,196
+FN:8,System.Void JuniorPorfirio.CheckClauses.Clauses`1::.ctor(System.String,T)
+FNDA:96,System.Void JuniorPorfirio.CheckClauses.Clauses`1::.ctor(System.String,T)
+DA:9,96
+DA:10,96
+DA:11,96
+DA:12,96
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/CustomCheckClauses.cs
+FN:9,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Null(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+FNDA:4,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Null(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+DA:10,4
+DA:11,4
+DA:12,1
+DA:14,3
+DA:15,3
+BRDA:11,18,0,1
+BRDA:12,29,0,1
+BRDA:12,29,1,1
+BRDA:11,18,1,3
+FN:16,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Where(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.Func`2<T,System.Boolean>,System.String)
+FNDA:2,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Where(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.Func`2<T,System.Boolean>,System.String)
+DA:17,2
+DA:18,2
+DA:19,1
+DA:20,1
+DA:21,1
+BRDA:18,19,0,1
+BRDA:19,23,0,1
+BRDA:19,23,1,1
+BRDA:18,19,1,1
+FN:22,T JuniorPorfirio.CheckClauses.CustomCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<T>,T,T,System.String)
+FNDA:14,T JuniorPorfirio.CheckClauses.CustomCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<T>,T,T,System.String)
+DA:23,14
+DA:25,14
+DA:26,14
+DA:27,14
+DA:28,9
+DA:29,5
+DA:30,5
+BRDA:26,22,0,10
+BRDA:26,22,1,4
+BRDA:26,46,0,9
+BRDA:28,57,0,9
+BRDA:28,57,1,9
+BRDA:26,46,1,5
+FN:31,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+FNDA:8,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+DA:32,8
+DA:33,8
+DA:34,4
+DA:35,4
+DA:36,4
+BRDA:33,29,0,4
+BRDA:34,33,0,4
+BRDA:34,33,1,4
+BRDA:33,29,1,4
+FN:38,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+FNDA:8,T JuniorPorfirio.CheckClauses.CustomCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+DA:39,8
+DA:40,8
+DA:41,4
+DA:42,4
+DA:43,4
+BRDA:40,41,0,4
+BRDA:41,45,0,4
+BRDA:41,45,1,4
+BRDA:40,41,1,4
+FN:44,T JuniorPorfirio.CheckClauses.CustomCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+FNDA:8,T JuniorPorfirio.CheckClauses.CustomCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<T>,System.String)
+DA:45,8
+DA:46,8
+DA:47,4
+DA:48,4
+DA:49,4
+BRDA:46,44,0,4
+BRDA:47,48,0,4
+BRDA:47,48,1,4
+BRDA:46,44,1,4
+LF:32
+LH:32
+BRF:26
+BRH:26
+FNF:6
+FNH:6
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/DateTimeCheckClauses.cs
+FN:6,System.DateTime JuniorPorfirio.CheckClauses.DateTimeCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.DateTime>,System.DateTime,System.DateTime)
+FNDA:2,System.DateTime JuniorPorfirio.CheckClauses.DateTimeCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.DateTime>,System.DateTime,System.DateTime)
+DA:7,2
+DA:8,2
+DA:9,1
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/DecimalCheckClauses.cs
+FN:6,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+FNDA:2,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+DA:7,2
+DA:8,2
+DA:9,1
+FN:11,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+FNDA:2,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+DA:12,2
+DA:13,2
+DA:14,1
+FN:15,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.Decimal,System.Decimal,System.String)
+FNDA:3,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.Decimal,System.Decimal,System.String)
+DA:16,3
+DA:17,3
+DA:18,1
+FN:19,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+FNDA:2,System.Decimal JuniorPorfirio.CheckClauses.DecimalCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Decimal>,System.String)
+DA:20,2
+DA:21,2
+DA:22,1
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/DoubleCheckClauses.cs
+FN:6,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+FNDA:2,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+DA:7,2
+DA:8,2
+DA:9,1
+FN:11,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+FNDA:2,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+DA:12,2
+DA:13,2
+DA:14,1
+FN:15,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.Double,System.Double,System.String)
+FNDA:3,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.Double,System.Double,System.String)
+DA:16,3
+DA:17,3
+DA:18,1
+FN:19,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+FNDA:2,System.Double JuniorPorfirio.CheckClauses.DoubleCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Double>,System.String)
+DA:20,2
+DA:21,2
+DA:22,1
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/FloatCheckClauses.cs
+FN:6,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+FNDA:2,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+DA:7,2
+DA:8,2
+DA:9,1
+FN:11,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+FNDA:2,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+DA:12,2
+DA:13,2
+DA:14,1
+FN:15,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.Single,System.Single,System.String)
+FNDA:3,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.Single,System.Single,System.String)
+DA:16,3
+DA:17,3
+DA:18,1
+FN:19,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+FNDA:2,System.Single JuniorPorfirio.CheckClauses.FloatCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Single>,System.String)
+DA:20,2
+DA:21,2
+DA:22,1
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/GuidCheckClauses.cs
+FN:6,System.Guid JuniorPorfirio.CheckClauses.GuidCheckClauses::NullEmpty(JuniorPorfirio.CheckClauses.Clauses`1<System.Guid>,System.String)
+FNDA:2,System.Guid JuniorPorfirio.CheckClauses.GuidCheckClauses::NullEmpty(JuniorPorfirio.CheckClauses.Clauses`1<System.Guid>,System.String)
+DA:7,2
+DA:8,2
+DA:10,2
+DA:11,1
+DA:12,1
+DA:13,1
+BRDA:10,46,0,1
+BRDA:11,50,0,1
+BRDA:11,50,1,1
+BRDA:10,46,1,1
+LF:6
+LH:6
+BRF:4
+BRH:4
+FNF:1
+FNH:1
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/IntCheckClauses.cs
+FN:6,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+FNDA:2,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+DA:7,2
+DA:8,2
+DA:9,1
+FN:11,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+FNDA:2,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+DA:12,2
+DA:13,2
+DA:14,1
+FN:15,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.Int32,System.Int32,System.String)
+FNDA:3,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.Int32,System.Int32,System.String)
+DA:16,3
+DA:17,3
+DA:18,1
+FN:19,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+FNDA:2,System.Int32 JuniorPorfirio.CheckClauses.IntCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int32>,System.String)
+DA:20,2
+DA:21,2
+DA:22,1
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/LongCheckClauses.cs
+FN:6,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+FNDA:0,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+FN:11,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+FNDA:0,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+DA:12,0
+DA:13,0
+DA:14,0
+FN:16,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+FNDA:0,System.Int64 JuniorPorfirio.CheckClauses.LongCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int64>,System.String)
+DA:17,0
+DA:18,0
+DA:19,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/ShortCheckClauses.cs
+FN:6,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+FNDA:0,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+FN:10,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+FNDA:0,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+DA:11,0
+DA:12,0
+DA:13,0
+FN:15,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+FNDA:0,System.Int16 JuniorPorfirio.CheckClauses.ShortCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.Int16>,System.String)
+DA:16,0
+DA:17,0
+DA:18,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/StringCheckClauses.cs
+FN:8,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::NullEmpty(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+FNDA:3,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::NullEmpty(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+DA:9,3
+DA:10,3
+DA:11,2
+DA:12,1
+DA:13,1
+BRDA:10,15,0,2
+BRDA:11,19,0,2
+BRDA:11,19,1,2
+BRDA:10,15,1,1
+FN:14,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::NullWhiteSpace(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+FNDA:3,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::NullWhiteSpace(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+DA:15,3
+DA:16,3
+DA:17,2
+DA:18,1
+DA:19,1
+BRDA:16,15,0,2
+BRDA:17,19,0,2
+BRDA:17,19,1,2
+BRDA:16,15,1,1
+FN:20,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::MatchRegex(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String,System.String)
+FNDA:2,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::MatchRegex(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String,System.String)
+DA:21,2
+DA:22,2
+DA:23,1
+DA:24,1
+DA:25,1
+BRDA:22,33,0,1
+BRDA:23,37,0,1
+BRDA:23,37,1,1
+BRDA:22,33,1,1
+FN:26,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::IsNumber(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+FNDA:2,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::IsNumber(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.String)
+DA:27,2
+DA:28,5
+DA:29,1
+DA:30,1
+DA:31,1
+BRDA:28,46,0,1
+BRDA:29,50,0,1
+BRDA:29,50,1,1
+BRDA:28,46,1,1
+FN:32,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::MaxLength(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.Int32,System.String)
+FNDA:2,System.String JuniorPorfirio.CheckClauses.StringCheckClauses::MaxLength(JuniorPorfirio.CheckClauses.Clauses`1<System.String>,System.Int32,System.String)
+DA:33,2
+DA:34,2
+DA:35,1
+DA:36,1
+DA:37,1
+BRDA:34,18,0,1
+BRDA:35,22,0,1
+BRDA:35,22,1,1
+BRDA:34,18,1,1
+LF:25
+LH:25
+BRF:20
+BRH:20
+FNF:5
+FNH:5
+end_of_record
+SF:/var/git/others/CheckClauses/src/CheckClauses/Extensions/TimeSpanCheckClauses.cs
+FN:6,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+FNDA:0,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::Zero(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+FN:10,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+FNDA:0,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::Negative(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+DA:11,0
+DA:12,0
+DA:13,0
+FN:14,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.TimeSpan,System.TimeSpan,System.String)
+FNDA:0,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::OutOfRange(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.TimeSpan,System.TimeSpan,System.String)
+DA:15,0
+DA:16,0
+DA:17,0
+FN:18,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+FNDA:0,System.TimeSpan JuniorPorfirio.CheckClauses.TimeSpanCheckClauses::NegativeOrZero(JuniorPorfirio.CheckClauses.Clauses`1<System.TimeSpan>,System.String)
+DA:19,0
+DA:20,0
+DA:21,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
