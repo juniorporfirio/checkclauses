@@ -1,4 +1,4 @@
-name: .NET
+name: .NET core Build + Run Tests
 
 on:
   push:
