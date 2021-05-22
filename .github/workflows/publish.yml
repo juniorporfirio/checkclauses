@@ -2,7 +2,7 @@ name: Publish CheckClauses to nuget
 on:
   push:
     branches:
-    - master
+    - main
 jobs:
   build-test-publish:
     name: publish to nuget
