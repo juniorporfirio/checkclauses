@@ -1,11 +1,9 @@
 name: .NET core Build with Run Tests
 on:
-  workflow_dispatch:
-    branches: [ main ]
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+    - '*'
+    - '!main'
 jobs:
   build:
     runs-on: ubuntu-latest
