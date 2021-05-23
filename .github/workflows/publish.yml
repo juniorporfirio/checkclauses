@@ -20,7 +20,7 @@ jobs:
       - name: Test
         run: dotnet test
       - name: Publish if version is updated
-        uses: rohith/publish-nuget@v2
+        uses: rohith/publish-nuget@v1
         with: # All inputs are optional (details given below)
           PROJECT_FILE_PATH: CheckClauses/CheckClauses.csproj
           tag_format: v* # [*] gets replaced with version
