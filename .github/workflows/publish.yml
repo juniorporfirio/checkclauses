@@ -4,7 +4,7 @@ on:
     branches:
     - main
 env:
-  PROJECT_PATH: 'src/CheckClauses/CheckClauses.csproj'
+  PROJECT_PATH: 'CheckClauses/CheckClauses.csproj'
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 jobs:
