@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 2 # This must be >= 2 to compare commits
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 3.1.x
       - name: Build
@@ -20,7 +20,7 @@ jobs:
       - name: Test
         run: dotnet test
       - name: Publish if version is updated
-        uses: rohith/publish-nuget@v1
+        uses: rohith/publish-nuget@v2
         with: # All inputs are optional (details given below)
           PROJECT_FILE_PATH: CheckClauses/CheckClauses.csproj
           tag_format: v* # [*] gets replaced with version
