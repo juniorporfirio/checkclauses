@@ -18,7 +18,7 @@ jobs:
       - name: Test
         run: dotnet test
       - name: Publish Nuget
-        uses: brandedoutcast/publish-nuget@v2.5
+        uses: brandedoutcast/publish-nuget@v2.5.2
         with: # All inputs are optional (details given below)
           PROJECT_FILE_PATH: src/CheckClauses/CheckClauses.csproj
           VERSION_REGEX: <Version>(.*)<\/Version>
