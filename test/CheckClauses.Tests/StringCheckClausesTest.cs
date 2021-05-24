@@ -69,8 +69,8 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var message = $"Field {inputName} cannot be null or empty";
 
             //Act
-            Action clausesEmpty = () => Check.Clauses(inputName, name: empty).IsNullOrEmpty();
-            Action clausesNull = () => Check.Clauses(inputName, name: nullable).IsNullOrEmpty();
+            Action clausesEmpty = () => Check.Clauses(inputName, value: empty).IsNullOrEmpty();
+            Action clausesNull = () => Check.Clauses(inputName, value: nullable).IsNullOrEmpty();
 
             //Assert
             var exceptionEmpty = Assert.Throws<ArgumentException>(clausesEmpty);
@@ -91,8 +91,8 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var message = $"Field {inputName} cannot be null or with white space";
 
             //Act
-            Action clausesEmpty = () => Check.Clauses(inputName, name: whitespace).IsNullOrWhiteSpace();
-            Action clausesNull = () => Check.Clauses(inputName, name: nullable).IsNullOrWhiteSpace();
+            Action clausesEmpty = () => Check.Clauses(inputName, value: whitespace).IsNullOrWhiteSpace();
+            Action clausesNull = () => Check.Clauses(inputName, value: nullable).IsNullOrWhiteSpace();
 
             //Assert
             var exceptionEmpty = Assert.Throws<ArgumentException>(clausesEmpty);
@@ -113,7 +113,7 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var message = $"Field {inputName} should be numeric";
 
             //Act
-            Action clausesNumber = () => Check.Clauses(inputName, name: number).IsNumber();
+            Action clausesNumber = () => Check.Clauses(inputName, value: number).IsNumber();
 
             //Assert
             var exceptionEmpty = Assert.Throws<ArgumentException>(clausesNumber);
@@ -129,7 +129,7 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var inputName = nameof(number);
 
             //Act
-            var value = Check.Clauses(inputName, name: number).IsNumber();
+            var value = Check.Clauses(inputName, value: number).IsNumber();
 
             //Assert
             Assert.Equal(number, value);
@@ -145,7 +145,7 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var inputName = nameof(name);
 
             //Act
-            var value = Check.Clauses(inputName, name: name).MaxLength(number);
+            var value = Check.Clauses(inputName, value: name).MaxLength(number);
 
             //Assert
             Assert.Equal(name, value);
@@ -162,7 +162,7 @@ namespace JuniorPorfirio.CheckClauses.Tests
             var message = $"Field {inputName} cannot be minor than {number} caracteres";
 
             //Act
-            Action clausesNumber = () => Check.Clauses(inputName, name: name).MaxLength(number);
+            Action clausesNumber = () => Check.Clauses(inputName, value: name).MaxLength(number);
 
             //Assert
             var exceptionEmpty = Assert.Throws<ArgumentException>(clausesNumber);
