@@ -2,14 +2,18 @@
 Check Clauses <img src="src/CheckClauses/icon.png" width=3%> 
 </h1>
 
-## Check Clauses
-
+# Check Clauses
 A simple package with guard clause extensions to simplify you life.
 
 ## Give a Star! :star:
 If you like or are using this project please give it a star. Thanks!
 
 ## Usage :fire:
+CheckClauses can be installed using the Nuget package manager or the `dotnet` CLI.
+```
+dotnet add package CheckClauses
+```
+### Show me code example :nerd_face:
 
 ```c#
     public void CheckPeople(People people)

@@ -1,5 +1,9 @@
 namespace JuniorPorfirio.CheckClauses
 {
+    /// <summary>
+    /// Simple class base to CheckClauses
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public struct Clauses<T>
     {
         public T Value { get; set; }
