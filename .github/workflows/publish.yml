@@ -5,7 +5,6 @@ on:
     - main
 env:
   PROJECT_PATH: 'src/CheckClauses/CheckClauses.csproj'
-  NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 jobs:
   build-test-publish:
     name: publish to nuget
@@ -35,7 +34,4 @@ jobs:
           TAG_COMMIT: true # Flag to enable / disable git tagging
           TAG_FORMAT: v* # Format of the git tag, [*] gets replaced with version
           NUGET_KEY: ${{secrets.NUGET_API_KEY}} # nuget.org API key
-          NUGET_SOURCE: ${{env.NUGET_SOURCE_URL}}
-
-
 
