@@ -1,4 +1,4 @@
-# Check Clauses 
+# <img src="/src/CheckClauses/icon.png" width="5%" alt="Check Clauses" /> Check Clauses 
 A simple package with guard clause extensions to simplify you life.
 
 [![Build Status](https://github.com/juniorporfirio/checkclauses/workflows/.NET%20core%20Build%20with%20Run%20Tests/badge.svg)](https://github.com/juniorporfirio/checkclauses/actions?query=.NET+core+Build+with+Run+Tests)
