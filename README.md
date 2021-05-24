@@ -1,9 +1,8 @@
-<h1>
-Check Clauses <img src="src/CheckClauses/icon.png" width=3%> 
-</h1>
-
-# Check Clauses
+# Check Clauses 
 A simple package with guard clause extensions to simplify you life.
+
+[![Build Status](https://github.com/juniorporfirio/checkclauses/workflows/.NET%20core%20Build%20with%20Run%20Tests/badge.svg)](https://github.com/juniorporfirio/checkclauses/actions?query=.NET+core+Build+with+Run+Tests)
+[![NuGet](https://img.shields.io/nuget/v/JuniorPorfirio.CheckClauses.svg)](https://www.nuget.org/packages/JuniorPorfirio.CheckClauses)  [![Nuget](https://img.shields.io/nuget/dt/JuniorPorfirio.CheckClauses.svg)](https://www.nuget.org/packages/JuniorPorfirio.CheckClauses) 
 
 ## Give a Star! :star:
 If you like or are using this project please give it a star. Thanks!
