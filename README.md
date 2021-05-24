@@ -64,7 +64,7 @@ To extend your own check clauses, you can do the following:
     {
         public static class ValidateNameGuard
         {
-            public static void IsName(this Clauses clauses, string message = null)
+            public static void IsName(this Clauses<string> clauses, string message = null)
             {
                 if (clauses.Value == "Please, input your name.")
                     throw new ArgumentException(message ?? "Should not have default input name", clauses.Name);
