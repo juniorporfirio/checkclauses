@@ -5,7 +5,6 @@ on:
     - main
 env:
   PROJECT_PATH: 'src/CheckClauses/CheckClauses.csproj'
-  PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 jobs:
   build-test-publish:
@@ -17,21 +16,26 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 3.1.x
+        # Restore
       - name: Install dependencies
         run: dotnet restore
+        # Build
       - name: Build
         run: dotnet build --configuration Release --no-restore
+        # Tests
       - name: Test
         run: dotnet test     
-      - name: 'Get Version'
-        id: version
-        uses: battila7/get-version-action@v2
-
-      - name: 'Pack project'
-        run: dotnet pack ${{ env.PROJECT_PATH }} --no-restore --no-build --configuration Release --include-symbols --output ${{ env.PACKAGE_OUTPUT_DIRECTORY }}
-
-      - name: 'Push package'
-        run: dotnet nuget push ${{ env.PACKAGE_OUTPUT_DIRECTORY }}\*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s ${{ env.NUGET_SOURCE_URL }}
+# Publish
+      - name: publish on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: ${{env.PROJECT_PATH}} # Relative to repository root
+          # VERSION_FILE_PATH: Directory.Build.props # Filepath with version info, relative to repository root. Defaults to project file
+          VERSION_REGEX: <Version>(.*)<\/Version> # Regex pattern to extract version info in a capturing group
+          TAG_COMMIT: true # Flag to enable / disable git tagging
+          TAG_FORMAT: v* # Format of the git tag, [*] gets replaced with version
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}} # nuget.org API key
+          NUGET_SOURCE: ${{env.NUGET_SOURCE_URL}}
 
 
 
