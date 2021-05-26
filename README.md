@@ -62,9 +62,9 @@ To extend your own check clauses, you can do the following:
     // extensions no matter where they are in your codebase.
     namespace JuniorPorfirio.CheckClauses
     {
-        public static class ValidateNameGuard
+        public static class ValidateNameEmptyExtensions
         {
-            public static void IsName(this Clauses<string> clauses, string message = null)
+            public static void IsNameEmpty(this Clauses<string> clauses, string message = null)
             {
                 if (clauses.Value == "Please, input your name.")
                     throw new ArgumentException(message ?? "Should not have default input name", clauses.Name);
@@ -73,9 +73,9 @@ To extend your own check clauses, you can do the following:
     }
 
     // Usage
-    public void SomeMethod(string something)
+    public void SomeMethod(string name)
     {
-        Check.Clauses(something, nameof(something)).IsName();
+        Check.Clauses(nameof(name), name).IsNameEmpty();
     }
 ```
 
