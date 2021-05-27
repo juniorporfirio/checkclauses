@@ -1,18 +1,18 @@
 # <img src="/src/CheckClauses/icon.png" width="5%" alt="Check Clauses" /> Check Clauses 
-A simple package with guard clause extensions to simplify you life.
+A simple package with guard clause extensions to simplify your life.
 
 [![Build Status](https://github.com/juniorporfirio/checkclauses/workflows/.NET%20core%20Build%20with%20Run%20Tests/badge.svg)](https://github.com/juniorporfirio/checkclauses/actions?query=.NET+core+Build+with+Run+Tests)
 [![NuGet](https://img.shields.io/nuget/v/JuniorPorfirio.CheckClauses.svg)](https://www.nuget.org/packages/JuniorPorfirio.CheckClauses)  [![Nuget](https://img.shields.io/nuget/dt/JuniorPorfirio.CheckClauses.svg)](https://www.nuget.org/packages/JuniorPorfirio.CheckClauses) 
 
 ## Give a Star! :star:
-If you like or are using this project please give it a star. Thanks!
+If you like or are using this project, please give it a star. Thanks!
 
 ## Usage :fire:
 CheckClauses can be installed using the Nuget package manager or the `dotnet` CLI.
 ```
 dotnet add package CheckClauses
 ```
-### Show me code example :nerd_face:
+### Show me some code examples :nerd_face:
 
 ```c#
     public void CheckPeople(People people)
@@ -81,6 +81,5 @@ To extend your own check clauses, you can do the following:
 
 ## Build Notes
 
-- Remember to update the PackageVersion in the csproj file and then a build on master should automatically publish the new package to nuget.org.
-- Add a release with form `1.0.2` to GitHub Releases in order for the package to actually be published to Nuget. Otherwise it will claim to have been successful but is lying to you.
-
+- Remember to update the PackageVersion in the `.csproj` file and then a build on master should automatically publish the new package to nuget.org.
+- Add a release with form `1.0.2` to GitHub Releases in order for the package to actually be published to Nuget. Otherwise it will claim to have been successful but it will be lying to you.
