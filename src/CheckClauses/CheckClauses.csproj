@@ -7,7 +7,7 @@
     <Company>juniorporfirio.medium.com</Company>
 	<PackageProjectUrl>https://github.com/juniorporfirio/checkclauses</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/juniorporfirio/checkclauses</RepositoryUrl>
-    <Description>A simple package with guard clause extensions to simplify you life.</Description>
+    <Description>A simple package with guard clause extensions to simplify your life.</Description>
     <PackageTags>guard clause clauses assert assertion fluent clauses check</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <Version>1.0.1</Version>
